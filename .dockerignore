@@ -5,4 +5,3 @@ Dockerfile
 
 #Artifacts that will be build during image creation
 node_modules
-build
