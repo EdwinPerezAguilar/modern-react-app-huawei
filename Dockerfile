@@ -1,5 +1,7 @@
-FROM nginx:1.19-alpine
-
-#ADD index.html /usr/share/nginx/html
-
-COPY --from=build /app .
+FROM node:alpine
+WORKDIR /app
+COPY package.json ./
+COPY package-lock.json ./
+COPY ./ ./
+RUN npm i
+CMD ["npm", "run", "start"]
