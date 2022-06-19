@@ -1,13 +1,13 @@
-import google from '../../assets/google.png';
+import huawei from '../../assets/huawei.svg';
 import slack from '../../assets/slack.png';
-import atlassian from '../../assets/atlassian.png';
+import huawei2 from '../../assets/huawei2.svg';
 import dropbox from '../../assets/dropbox.png';
 import shopify from '../../assets/shopify.png';
 
 export {
-  google,
+  huawei,
   slack,
-  atlassian,
+  huawei2,
   dropbox,
   shopify,
 };

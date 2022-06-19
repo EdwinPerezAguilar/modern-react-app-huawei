@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../logo.svg';
+import huawei from '../../assets/huawei.svg';
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,14 +10,14 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} />
+          <img src={huawei} />
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">What is GPT3?</a></p>
-          <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="#wgpt3">Why Huawei Cloud?</a></p>
+          <p><a href="#possibility">Solution Archiect</a></p>
+          <p><a href="#features">Demos</a></p>
+          <p><a href="#blog">Poc</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
@@ -32,10 +32,10 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">What is GPT3?</a></p>
-            <p><a href="#possibility">Open AI</a></p>
-            <p><a href="#features">Case Studies</a></p>
-            <p><a href="#blog">Library</a></p>
+            <p><a href="#wgpt3">Why Huawei Cloud?</a></p>
+            <p><a href="#possibility">Solution Architect</a></p>
+            <p><a href="#features">Demos</a></p>
+            <p><a href="#blog">POC</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
             <p>Sign in</p>
