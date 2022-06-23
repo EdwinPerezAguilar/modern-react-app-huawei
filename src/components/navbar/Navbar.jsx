@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">Why Huawei Cloud?</a></p>
+          <p><a href="#wgpt3">Huawei Cloud CICD</a></p>
           <p><a href="#possibility">Solution Archiect</a></p>
           <p><a href="#features">Demos</a></p>
           <p><a href="#blog">Poc</a></p>
