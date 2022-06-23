@@ -34,4 +34,4 @@ jobs:
         #context: ./
         #file: ./Dockerfile
         push: true
-        tags: swr.na-mexico-1.myhuaweicloud.com/cicd-test/react-app:v2
+        tags: swr.na-mexico-1.myhuaweicloud.com/cicd-test/react-app:v3
